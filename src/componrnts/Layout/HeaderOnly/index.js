@@ -1,6 +1,6 @@
 import Header from '../component/Header';
 
-function DefaultLayout({ children }) {
+function HeaderOnly({ children }) {
     return (
         <div>
             {/* chi co 1 minh header thoi trang upload*/}
@@ -11,4 +11,4 @@ function DefaultLayout({ children }) {
         </div>
     );
 }
-export default DefaultLayout;
+export default HeaderOnly;

@@ -5,8 +5,14 @@
 
 :root {
     --primary: rgba(254, 44, 85, 1);
+    --default-layout-width: 1150px;
+    --default-layout-header-height: 60px;
+
+
 }
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 html {
